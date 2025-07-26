@@ -2,35 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact - TechCon 2024</title>
+  <title>Contact Us - TechCon 2024</title>
 </head>
 <body>
+
   <header>
-    <h1>TechCon 2024</h1>
+    <h1>Contact Us</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="register.html">Register</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
     <section>
-      <h2>Contact Us</h2>
-      <p>If you have questions or need support, please reach out to us using the form below or email us directly at <a href="mailto:info@techcon2024.com">info@techcon2024.com</a>.</p>
+      <h2>Get in Touch</h2>
+      <p>Email us at: <a href="mailto:email@example.com">email@example.com</a></p>
 
-      <form action="thankyou.html" method="POST">
-        <label for="fullname">Your Name:</label><br>
-        <input type="text" id="fullname" name="fullname" required><br><br>
+      <h3>Follow Us on Social Media</h3>
+      <ul>
+        <li><a href="https://twitter.com/techcon2024" target="_blank">Twitter</a></li>
+        <li><a href="https://facebook.com/techcon2024" target="_blank">Facebook</a></li>
+        <li><a href="https://instagram.com/techcon2024" target="_blank">Instagram</a></li>
+      </ul>
+    </section>
 
-        <label for="email">Your Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+    <section>
+      <h2>Our Location</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.3456!2d-0.18745!3d5.603717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9bdf!2sAccra!5e0!3m2!1sen!2sgh!4v1615000000000"
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
 
-        <label for="message">Your Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
+    <section>
+      <h2>Contact Us Form</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </p>
         <button type="submit">Send Message</button>
       </form>
     </section>
@@ -39,5 +67,6 @@
   <footer>
     <p>&copy; 2024 TechCon. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
